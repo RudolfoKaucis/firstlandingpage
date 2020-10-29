@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jura', sans-serif;
+}
+
+/* __________________HEADER__________________ */
+
+#header {
+    height: 100vh;
+    background-image: url(/_OLD/galadarbs2/img/Untitled\ copy\ 6.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+
+}
+
+.logo {
+    margin-top: 30px;
+    width: 50px;
+}
+
+.header-text {
+    max-width: 500px;
+    margin-top: 140px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: black;
+    margin: 15px 0;
+}
+
+.btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: black;
+
+}
+
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+/* __________________SIDENAV__________________ */
+
+#sideNav {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #ffffff;
+    opacity: .9;
+    z-index: 2;
+    transition: .5s;
+}
+
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* __________________MENU BUTTON__________________ */
+
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+/* __________________ABOUT__________________ */
+
+#about {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.about-left-col {
+    flex-basis: 50%;
+}
+
+.about-left-col img {
+    width: 100%;
+
+}
+
+.about-right-col {
+    flex-basis: 50%;
+    text-align: right;
+}
+
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+
+.about-text h2 {
+    margin: 20px 0 10px;
+    font-size: 15px;
+    
+}
+.about-text h3 {
+    font-size: 20px;
+    font-style: italic;
+    color: black;
+}
+
+/* __________________SERVICES__________________ */
+
+#ser {
+    height: 80vh;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+.row1 {
+    display: flex;
+    height: 88%;
+    align-items: center;
+    right: 0px;
+}
+
+.card {
+    
+    width: 280px;
+    height: 300px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+    margin: 10px 15px;
+    
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+    
+}
+
+.card1 {
+    background-image: url(/galadarbs2/img/Untitled\ copy\ 7.png);
+}
+.card2 {
+    background-image: url(/galadarbs2/img/Untitled\ copy\ 8.png);
+}
+.card3 {
+    background-image: url(/galadarbs2/img/Untitled\ \(1\).png);
+}
+.card4 {
+    background-image: url(/galadarbs2/img/Untitled\ \(1\)\ copy\ 2.png);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.col1 {
+    flex-basis: 50%;
+    
+}
+
+.col1 h1 {
+    color: black;
+    font-size: 34px;
+}
+
+.col1 p {
+    color: black
+    font-size: 11px;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
+
+h5 {
+    color: black
+    text-shadow: 0 0 5px;
+    padding-bottom: 10px;
+}
+
+/* __________________TEAM__________________ */
+
+
+#team {
+    height: 80vh;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: #f9f9f9;
+}
+
+.row2 {
+    background: grey;
+    width: 85%;
+    margin: 4 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.col2 {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.col2 img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.col2 p {
+    margin: 20px 0;
+}
+
+.social-links {
+    width: 20px;
+    align-items: center;
+    display: flex;
+    padding-left: 100px;
+    
+}
+
+.social-links img {
+    padding: 5px 10px;
+    
+}
+
+/* __________________TEAM__________________ */
+
+#service {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    background-color: lavender;
+}
+
+.service-row {
+    width: 80%; 
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-col {
+    flex-basis: 25%;
+    text-align: center;
+}
+
+.service-col img {
+    padding-bottom: 10px;
+    width: 100px;
+}
+
+.service-col h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.service-btn {
+    margin: 80px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+/* __________________BLOG__________________ */
+
+#testimonials {
+    padding: 100px;
+}
+
+.testi-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.testi-right-col {
+    flex-basis: 50%;
+}
+
+.testi-right-col img {
+    width: 100%;
+}
+
+.testi-left-col {
+    flex-basis: 50%;
+}
+
+.testi-text {
+    max-width: 300px;
+}
+
+
+/* __________________CONTACTS__________________ */
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-left-col, .contact-right-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col img {
+    width: 100%;
+}
+
+form {
+    max-width: 350px;
+    margin: 10px 0;
+
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button {
+    flex-basis: 48%;
+    padding: 18px 0;
+}
+
+/* __________________FOOOTER__________________ */
+
+#footer {
+    padding: 50px 0 30px;
+    background-color: #f9f9f9;
+
+}
+
+hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid black;
+}
+
+.footer-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left-col {
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+
+.footer-right-col {
+    flex-basis: 35%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.link-title h4 {
+    margin-bottom: 20px;
+}
+
+.link-title small {
+    font-size: 13px;
+}
+
+.footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.copyright-text {
+    flex-basis: 100%;
+}
+
+/* __________________SOCIAL ICONS__________________ */
+
+.social-icons {
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.social-icons img {
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+
+/* __________________QUEARY__________________ */
+
+@media only screen and (max-width: 770px) {
+    #header {
+        background-image: none;
+    }
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo {
+        margin-top: 27px;
+        width: 70px;
+    }
+    .header-text {
+        margin-top: 100px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    #menuBtn {
+        width: 40px;
+        right: 50px; 
+    }
+    .btn {
+        padding: 10px 16px;
+    }
+    .social-icons img {
+        width: 14px;
+        margin: 15px auto;  
+    }
+    .about-left-col {
+        flex-basis: 100%;
+    }
+    .about-right-col {
+        flex-basis: 100%;
+    }
+    .about-text {
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    
+    .about-text h2 {
+        font-size: 15px;   
+    }
+    .service-col {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .testi-left-col {
+        flex-basis: 100%;
+    }
+    .testi-right-col {
+        flex-basis: 100%;
+    }
+    .contact-left-col, .contact-right-col {
+        flex-basis: 100%;
+    }
+    .contact-right-col {
+        margin-top: 50%;
+    }
+    .footer-left-col {
+        flex-basis: 100%;
+    }
+    .footer-right-col {
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+}
